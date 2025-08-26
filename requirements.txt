@@ -1,0 +1,6 @@
+# Fake vulnerable dependencies for SBOM scanning demo
+Flask==0.12        # old version, has known CVEs
+requests==2.18.0   # outdated, security issues fixed in later versions
+Django==1.11       # very old, EOL
+urllib3==1.21.1    # outdated
+PyYAML==4.1        # old version, RCE vulnerabilities
